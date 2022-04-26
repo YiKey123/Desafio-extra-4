@@ -1,0 +1,67 @@
+.logo {
+    background: url(logo.jpg) no-repeat;
+    margin-left: 7%;
+    background-size: 140px 80px;
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    right: 20px;
+}
+
+.menu a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+}
+
+
+.menu a:hover{
+    color: #1b1eee;
+}
+.btn span {
+    margin: 6px;
+    width: 60px;
+    height: 8px;
+    background: #333;
+}
+body{
+    background-color: #c4c0bd;
+}
+form,input[type="search"]{
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    padding: 5px 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+form label{
+    font-weight: bold;
+    padding: 5px 5px 10px;
+    color: #522905;
+    font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+    form,input[type="reset"],
+    input[type="text"] {
+      max-width: 100%;
+    }
+}
